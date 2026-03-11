@@ -2,28 +2,55 @@ import streamlit as st
 import pandas as pd
 # from main import artist_df
 
-st.set_page_config(page_title="Tam & Plam 19 July 2026", page_icon="👋")
+# 1. Set the page title
+st.set_page_config(page_title="Tam & Plam 19 July 2026")
 
 st.title("Tam & Plam 19 July 2026")
-st.subheader("Generic information")
+st.subheader("Generic information for our most special day ❤️")
+st.divider()
+st.write("Welcome to our wedding page! We are so happy you’re here.")
 
-
-# 1. Set the page title
-st.set_page_config(page_title="My Test Page")
 
 # 2. Add the text and the link
 # Streamlit supports Markdown for easy link formatting
 st.write(
-    "Test case, please check details on: [google.com](https://www.google.com)")
+    "They say all roads lead to love, and ours has led us to the beautiful streets of Vienna.")
+
+st.write("We are Tamar and Plamen, and we couldn’t be more thrilled to invite you to join us as we say “I do.” To us, this day isn’t just about a ceremony, it’s a celebration of the journey we’ve shared and the many adventures yet to come.On July 19, 2026, amidst the history and charm of this incredible city, we will start our new chapter. Having our favorite people by our side as we celebrate our love means the world to us. We can’t wait to dance, laugh, and make memories with you all!")
+
+st.image('hands.jpg', width=500)
+
+# height sizing
+# st.markdown(
+#     '<style>img {max-height: 300px; object-fit: contain;}</style>', unsafe_allow_html=True)
 
 st.divider()
 
-# 3. Add a Google Map frame for Los Angeles Beach (Santa Monica area)
-st.subheader("Location: Ristorante Vabene")
-st.text("From 17:00")
 
-# Note: For a quick test without an API key, we can use a standard embed URL:
-simple_map_url = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5168.031708593825!2d16.451891614532386!3d48.19249238494649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d00bc287b8277%3A0xcffa4f8fe89495b1!2sRistorante%20Vabene!5e0!3m2!1sde!2sat!4v1773255031475!5m2!1sde!2sat"
+# 3. Background image
+def add_bg_from_url():
+    st.markdown(
+        f"""
+         <style>
+         .stApp {{
+             background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+             background-attachment: fixed;
+             background-size: cover;
+         }}
+         .stApp::before {{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9); /* This creates the 90% transparency effect */
+            z-index: -1;
+         }}
+         </style>
+         """,
+        unsafe_allow_html=True
+    )
 
-st.components.v1.html(
-    f'<iframe src="{simple_map_url}" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>', height=460)
+
+add_bg_from_url()
