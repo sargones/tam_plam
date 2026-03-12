@@ -14,7 +14,7 @@ st.write("Welcome to our wedding page! We are so happy you’re here.")
 # 2. Add the text and the link
 # Streamlit supports Markdown for easy link formatting
 st.write(
-    "They say all roads lead to love, and ours has led us to the beautiful streets of Vienna.")
+    "They say all roads lead to love, and ours has led us to the beautiful streets of Vienna. ")
 
 st.write("We are Tamar and Plamen, and we couldn’t be more thrilled to invite you to join us as we say “I do.” To us, this day isn’t just about a ceremony, it’s a celebration of the journey we’ve shared and the many adventures yet to come.On July 19, 2026, amidst the history and charm of this incredible city, we will start our new chapter. Having our favorite people by our side as we celebrate our love means the world to us. We can’t wait to dance, laugh, and make memories with you all!")
 
