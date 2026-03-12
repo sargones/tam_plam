@@ -9,7 +9,7 @@ st.set_page_config(page_title="Tam & Plam 19 July 2026",
 
 # Standard Sidebar Navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Home", "Map View", "Settings"]
+page = st.sidebar.radio("Go to", ["Home", "Map View", "Settings"])
 
 st.title("Tam & Plam 19 July 2026")
 st.subheader("Generic information for our most special day ❤️")
