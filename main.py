@@ -57,3 +57,6 @@ def add_bg_from_url():
 
 
 add_bg_from_url()
+
+
+st.write('Click top-left for details')
