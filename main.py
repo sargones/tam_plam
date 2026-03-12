@@ -4,6 +4,7 @@ import pandas as pd
 
 # 1. Set the page title
 st.set_page_config(page_title="Tam & Plam 19 July 2026",
+                   layout="wide",
                    initial_sidebar_state="expanded")
 
 st.title("Tam & Plam 19 July 2026")
