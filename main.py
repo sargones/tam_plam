@@ -3,7 +3,8 @@ import pandas as pd
 # from main import artist_df
 
 # 1. Set the page title
-st.set_page_config(page_title="Tam & Plam 19 July 2026")
+st.set_page_config(page_title="Tam & Plam 19 July 2026",
+                   initial_sidebar_state="expanded")
 
 st.title("Tam & Plam 19 July 2026")
 st.subheader("Generic information for our most special day ❤️")
