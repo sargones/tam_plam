@@ -36,10 +36,13 @@ def show_home():
 
     st.image('hands.jpg', width=500)
 
+    st.write("As many aspects around the wedding organization are yet to be planned. Feel free to check the site more frequently towards our BIG day!")
+
 
 def show_locations():
     st.title("Main locations for Sunday 19 July 2026")
-    # st.subheader("Generic information")
+    st.subheader(
+        "As we organize further details of the wedding day - further locations and time-table will be posted.")
 
     # 3. Add a Google Map frame for the church ()
     st.subheader("Armenische Kirche Wien")
