@@ -11,7 +11,7 @@ st.markdown("""
     <style>
         div[data-testid="stVerticalBlock"] > div:has(div.stMarkdown) {
             position: sticky;
-            top: 10;
+            top: 100;
             z-index: 999;
             background-color: white;
         }
