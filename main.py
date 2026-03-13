@@ -7,6 +7,21 @@ st.set_page_config(page_title="Tam & Plam 19 July 2026",
                    page_icon="❤️", layout="centered")
 
 # 1. Create the horizontal navigation bar
+st.markdown("""
+    <style>
+        div[data-testid="stVerticalBlock"] > div:has(div.stMarkdown) {
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            background-color: white;
+        }
+        /* Optional: Add a slight shadow so it looks elevated when scrolling */
+        .sticky-nav {
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 selected = option_menu(
     menu_title=None,        # No title needed for the top bar
     options=["Home", "Locations", "FAQ", "About Us"],
