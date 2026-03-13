@@ -73,6 +73,24 @@ def show_questions():
     st.subheader("Will there be vegetarian or vegan meal options?")
     st.write("Absolutely! We will have a variety of meal options to accommodate different dietary preferences, including vegetarian and vegan dishes. Please let us know if you have any specific dietary restrictions or allergies so we can ensure there are delicious options for everyone.")
     st.divider()
+    st.subheader("How can I confirm my attendance?")
+    st.write("You can confirm your attendance by calling or texting us directly.")
+    st.divider()
+    st.subheader("How can I come to the church?")
+    st.write("The church is located in the 3rd district of Vienna and is easily accessible by public transportation. Please check the Location page for the address details.")
+    st.divider()
+    st.subheader("How can I come to the restaurant?")
+    st.write("There will be organized transportation from the church to the restaurant via bus shuttle. "
+             "If you plan to come with own car or taxi, please check the Location page for the address details.")
+    st.divider()
+    st.subheader(
+        "Will there be transportation from the restaurant at the end of the wedding party?")
+    st.write("No. As everyone will have own energy-level at the end of the exciting day, feel free to organize your own transportation."
+             "We recommend using Uber to get back to your accommodation safely.")
+    st.divider()
+    st.subheader("Do we have a list with preferred wedding gifts?")
+    st.write("No. We do prefer to receive monetary gifts, which will help us to create our dream honeymoon and future together.")
+    st.divider()
 
 
 def show_about():
