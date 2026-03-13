@@ -18,9 +18,9 @@ selected = option_menu(
 )
 
 
-st.title("❤️Tam & Plam❤️")
+st.title("Tam & Plam")
 st.title("19 July 2026")
-st.subheader("Generic information for our most special day")
+st.subheader("❤️Generic information for our most special day❤️")
 st.divider()
 st.write("Welcome to our wedding page! We are so happy you’re here.")
 
