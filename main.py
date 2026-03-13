@@ -73,9 +73,6 @@ def show_questions():
     st.subheader("Will there be vegetarian or vegan meal options?")
     st.write("Absolutely! We will have a variety of meal options to accommodate different dietary preferences, including vegetarian and vegan dishes. Please let us know if you have any specific dietary restrictions or allergies so we can ensure there are delicious options for everyone.")
     st.divider()
-    st.subheader("Can I bring a plus one?")
-    st.write("We have a limited number of seats available, so we kindly ask that you RSVP with the number of guests attending. If you have a plus one, please include that information in your RSVP. We want to make sure we can accommodate everyone comfortably!")
-    st.divider()
 
 
 def show_about():
