@@ -3,7 +3,8 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 
 # 0. Set the page title
-st.set_page_config(page_title="Tam & Plam 19 July 2026",
+st.set_page_config(page_title="Tam & Plam "
+                   "19 July 2026",
                    page_icon="❤️", layout="centered")
 
 # 1. Create the horizontal navigation bar
