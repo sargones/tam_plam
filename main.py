@@ -38,7 +38,7 @@ def show_home():
 
 
 def show_locations():
-    st.title("Main location for Sunday 19 July 2026")
+    st.title("Main locations for Sunday 19 July 2026")
     # st.subheader("Generic information")
 
     # 3. Add a Google Map frame for the church ()
