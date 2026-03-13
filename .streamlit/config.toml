@@ -1,6 +1,6 @@
 [theme]
 primaryColor = "#0e0d0d"
-backgroundColor = "#eb2626"
-secondaryBackgroundColor = "#cc1717ea"
+# backgroundColor = "#eb2626"
+# secondaryBackgroundColor = "#cc1717ea"
 textColor = "#000000"  # This sets the global text color to Black
 font = "sans serif"
