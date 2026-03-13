@@ -114,3 +114,13 @@ elif selected == "FAQ":
 
 elif selected == "About Us":
     show_about()
+
+
+selected = option_menu(
+    menu_title=None,        # No title needed for the top bar
+    options=["Home", "Locations", "FAQ", "About Us"],
+    icons=["house", "geo-alt", "patch-question", "info-circle"],
+    menu_icon="cast",
+    default_index=0,
+    orientation="horizontal",
+)
