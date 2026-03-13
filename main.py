@@ -22,12 +22,13 @@ st.title("Tam & Plam")
 st.title("19 July 2026")
 st.subheader("❤️Generic information for our most special day❤️")
 st.divider()
-st.write("Welcome to our wedding page! We are so happy you’re here.")
+
 
 # --- 1. DEFINE YOUR "PAGES" AS FUNCTIONS ---
 
 
 def show_home():
+    st.write("Welcome to our wedding page! We are so happy you’re here.")
     st.write(
         "They say all roads lead to love, and ours has led us to the beautiful streets of Vienna.")
     st.write("We are Tamar and Plamen, and we couldn’t be more thrilled to invite you to join us as we say “I do.” To us, this day isn’t just about a ceremony, it’s a celebration of the journey we’ve shared and the many adventures yet to come.")
