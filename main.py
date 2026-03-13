@@ -11,7 +11,7 @@ st.set_page_config(page_title="Tam & Plam 19 July 2026",
 selected = option_menu(
     menu_title=None,        # No title needed for the top bar
     options=["Home", "Locations", "Menu", "FAQ", "About Us"],
-    icons=["house", "geo-alt", "🍴", "patch-question", "info-circle"],
+    icons=["house", "geo-alt", "cake2", "patch-question", "info-circle"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
@@ -78,6 +78,15 @@ def show_menu():
     st.write("Cannelloni stuffed with spinach and feta, gratinéed with mozzarella.")
     st.write("Salmon with lemon-caper butter.")
     st.write(" Mixed Roast(Chicken, Pork, Cured Pork, and Vegetables).")
+    st.divider()
+    st.subheader("Beverages")
+    st.write("Cocktails: Aperol Spritz, Hugo.")
+    st.write(
+        "Soft Drinks: Apple juice, Cola, Fanta, Iced tea, Orange juice, Soda water.")
+    st.write("Draught Beer: Budweiser")
+    st.write(
+        "Wines: Grüner Veltliner (White) and Zweigelt (Red) from the Pridt Winery.")
+    st.write("Coffee & Hot Drinks: Wiener Melange, Kleiner Brauner (Espresso with a dash of milk), Hot Cocoa, Caffè Latte, and various Teas")
     st.divider()
 
 
