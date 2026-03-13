@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 # 0. Set the page title
 st.set_page_config(page_title="Tam & Plam 19 July 2026",
-                   page_icon="❤️", layout="centered")
+                   page_icon="❤️", layout="wide")
 
 # 1. Create the horizontal navigation bar
 
@@ -114,13 +114,3 @@ elif selected == "FAQ":
 
 elif selected == "About Us":
     show_about()
-
-
-selected = option_menu(
-    menu_title=None,        # No title needed for the top bar
-    options=["Home", "Locations", "FAQ", "About Us"],
-    icons=["house", "geo-alt", "patch-question", "info-circle"],
-    menu_icon="cast",
-    default_index=0,
-    orientation="horizontal",
-)
