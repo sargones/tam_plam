@@ -10,8 +10,8 @@ st.set_page_config(page_title="Tam & Plam 19 July 2026",
 
 selected = option_menu(
     menu_title=None,        # No title needed for the top bar
-    options=["Home", "Locations", "FAQ", "About Us"],
-    icons=["house", "geo-alt", "patch-question", "info-circle"],
+    options=["Home", "Locations", "Menu", "FAQ", "About Us"],
+    icons=["house", "geo-alt", "fork-knife", "patch-question", "info-circle"],
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
@@ -62,6 +62,25 @@ def show_locations():
         f'<iframe src="{simple_map_url}" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>', height=460)
 
 
+def show_menu():
+    st.title("Menu")
+    st.subheader("Aperitif")
+    st.write(
+        "Includes Prosecco, Mimosa (Prosecco Orange), Aperol Spritz, and Hugo. For our younger guests: orange juice, fruit juices, soda water.")
+    st.divider()
+    st.subheader("Mediterranean Appetizer Platter")
+    st.write(
+        "Mediterranean olive and feta salad, savory meatballs, Parmesan, Chorizo, caper berries, stuffed grape leaves, Norwegian smoked salmon, pesto, San Daniele prosciutto, baby mozzarella with cherry tomatoes and basil pesto. Served with oven-fresh garlic bread.")
+    st.divider()
+    st.subheader("Main course")
+    # st.write("Pork Medallions in a green peppercorn cream sauce.")
+    st.write("Marinated Corn-fed Chicken Breast in a wild mushroom ragout.")
+    st.write("Cannelloni stuffed with spinach and feta, gratinéed with mozzarella.")
+    st.write("Salmon with lemon-caper butter.")
+    st.write(" Mixed Roast(Chicken, Pork, Cured Pork, and Vegetables).")
+    st.divider()
+
+
 def show_questions():
     st.title("FAQ")
     st.subheader("Frequently Asked Questions")
@@ -70,11 +89,8 @@ def show_questions():
     st.subheader("What is the dress code?")
     st.write("We want everyone to feel comfortable and stylish! The dress code is semi-formal. Think cocktail dresses, dressy separates, or a nice suit. We encourage you to add a pop of color or a fun accessory to make it your own!")
     st.divider()
-    st.subheader("Is there parking available at the venues?")
-    st.write("Yes, there is parking available at both the church and the restaurant. However, we recommend carpooling or using public transportation if possible, as parking can be limited. The church is easily accessible by tram, and the restaurant is a short walk from the nearest subway station.")
-    st.divider()
     st.subheader("Will there be vegetarian or vegan meal options?")
-    st.write("Absolutely! We will have a variety of meal options to accommodate different dietary preferences, including vegetarian and vegan dishes. Please let us know if you have any specific dietary restrictions or allergies so we can ensure there are delicious options for everyone.")
+    st.write("Absolutely! We will have a variety of meal options to accommodate different dietary preferences, including some vegetarian dishes. Please let us know if you have any specific dietary restrictions or allergies so we can ensure there are delicious options for everyone.")
     st.divider()
     st.subheader("How can I confirm my attendance?")
     st.write("You can confirm your attendance by calling or texting us directly.")
@@ -109,6 +125,9 @@ if selected == "Home":
 
 elif selected == "Locations":
     show_locations()
+
+elif selected == "Menu":
+    show_menu()
 
 elif selected == "FAQ":
     show_questions()
