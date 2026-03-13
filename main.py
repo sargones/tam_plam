@@ -3,8 +3,7 @@ import pandas as pd
 from streamlit_option_menu import option_menu
 
 # 0. Set the page title
-st.set_page_config(page_title="Tam & Plam "
-                   "19 July 2026",
+st.set_page_config(page_title="Tam & Plam 19 July 2026",
                    page_icon="❤️", layout="centered")
 
 # 1. Create the horizontal navigation bar
@@ -19,7 +18,8 @@ selected = option_menu(
 )
 
 
-st.title("Tam & Plam 19 July 2026")
+st.title("Tam & Plam ")
+st.title("19 July 2026")
 st.subheader("Generic information for our most special day ❤️")
 st.divider()
 st.write("Welcome to our wedding page! We are so happy you’re here.")
