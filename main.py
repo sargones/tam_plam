@@ -34,7 +34,7 @@ def show_home():
     st.write("We are Tamar and Plamen, and we couldn’t be more thrilled to invite you to join us as we say “I do.” To us, this day isn’t just about a ceremony, it’s a celebration of the journey we’ve shared and the many adventures yet to come.")
     st.write("On July 19, 2026, amidst the history and charm of this incredible city, we will start our new chapter. Having our favorite people by our side as we celebrate our love means the world to us. We can’t wait to dance, laugh, and make memories with you all!")
 
-    st.image('hands.jpg', width=500)
+    st.image('new_Ai.jpg', width=500)
 
     st.write("As many aspects around the wedding organization are yet to be planned. Feel free to check the site more frequently towards our BIG day!")
 
