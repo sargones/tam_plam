@@ -11,8 +11,7 @@ st.set_page_config(page_title="Tam & Plam 19 July 2026",
 selected = option_menu(
     menu_title=None,        # No title needed for the top bar
     options=["Home", "Locations",  "FAQ", "About Us"],  # "Menu",
-    icons=["house", "geo-alt", "cake2",
-           "patch-question", "info-circle"],  # "cake2",
+    icons=["house", "geo-alt", "patch-question", "info-circle"],  # "cake2",
     menu_icon="cast",
     default_index=0,
     orientation="horizontal",
